@@ -2,9 +2,8 @@
 const urlParams = new URLSearchParams(window.location.search);
 const season = urlParams.get("season");
 
-console.log(season);
 
-const url=`https://kea-alt-del.dk/t7/api/products?limit=50&seasons=${season}`;
+const url=`https://kea-alt-del.dk/t7/api/products?limit=50`;
 
 
 
